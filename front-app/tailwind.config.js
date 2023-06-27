@@ -10,8 +10,9 @@ module.exports = {
     colors: {
       text: "#000000",
       background: "#ffffff",
-      "primary-button": "#8fb4ff",
-      "secondary-button": "#ebf1ff",
+      primary: "#8fb4ff",
+      secondary: "#ebf1ff",
+      tertiary: "#00132c",
       accent: "#ff8f94",
     },
   },

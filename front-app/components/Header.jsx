@@ -13,7 +13,7 @@ const Header = () => {
   const [showSideMenu, setShowSideMenu] = useState(false);
 
   return (
-    <div className="bg-secondary p-4 flex justify-between">
+    <header className="bg-primary p-4 flex justify-between">
       <div className="flex lg:w-[40%] sm:gap-4">
         <h1 className="text-4xl flex items-center text-tertiary">
           <PiVinylRecord />
@@ -63,7 +63,7 @@ const Header = () => {
       </span>
 
       <SideMenu showSideMenu={showSideMenu} setShowSideMenu={setShowSideMenu} />
-    </div>
+    </header>
   );
 };
 

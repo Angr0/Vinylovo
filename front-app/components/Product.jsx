@@ -30,7 +30,7 @@ const Product = ({ name, price, rating, formatter }) => {
         <BiHappyAlt />
       </div>
       <button className="bg-primary rounded-md p-2 hover:shadow-md hover:scale-105 transition-all duration-300 ">
-        <Link href="/vinyl-name">Check it out!</Link>
+        <Link href={`/${name}`}>Check it out!</Link>
       </button>
     </div>
   );

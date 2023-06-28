@@ -25,7 +25,7 @@ const Products = () => {
   });
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center bg-secondary">
       <div className="flex flex-wrap justify-around gap-4 py-8 px-2 md:px-4">
         {products.map(({ name, price, rating }) => (
           <Product

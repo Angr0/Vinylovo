@@ -10,6 +10,10 @@
   .product {
     @apply p-4 rounded-md bg-background shadow-md w-60 lg:w-80;
   }
+
+  .link {
+    @apply cursor-pointer underline;
+  }
 }
 
 html,

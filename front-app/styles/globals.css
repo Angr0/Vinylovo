@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-button {
+    @apply p-2 rounded-md bg-background cursor-pointer hover:shadow-md transition-shadow duration-300;
+  }
+
+  .product {
+    @apply p-4 rounded-md bg-background shadow-md w-60 lg:w-80;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -15,12 +29,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*  html {*/
+/*    color-scheme: dark;*/
+/*  }*/
+/*  body {*/
+/*    color: white;*/
+/*    background: black;*/
+/*  }*/
+/*}*/

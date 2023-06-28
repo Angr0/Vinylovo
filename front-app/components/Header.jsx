@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div className="bg-secondary p-4 flex justify-between">
-      <div className="flex lg:w-[40%] gap-4">
+      <div className="flex lg:w-[40%] sm:gap-4">
         <h1 className="text-4xl flex items-center text-tertiary">
           <PiVinylRecord />
         </h1>
@@ -23,13 +23,13 @@ const Header = () => {
             <Link href="/">
               <span className="card-button">Home</span>
             </Link>
-            <Link href="/">
+            <Link href="/products">
               <span className="card-button">Products</span>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <span className="card-button">Contact</span>
             </Link>
-            <Link href="/">
+            <Link href="/faq">
               <span className="card-button">FAQ</span>
             </Link>
           </div>
@@ -61,6 +61,9 @@ const Header = () => {
       >
         <RxHamburgerMenu />
       </span>
+
+      {/*SIDE MENU*/}
+
       <div
         className={`${
           showSideMenu ? "block" : "hidden"
@@ -95,17 +98,17 @@ const Header = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/">
+              <Link href="/products">
                 <span className="cursor-pointer text-center text-3xl">
                   Products
                 </span>
               </Link>
-              <Link href="/">
+              <Link href="/contact">
                 <span className="cursor-pointer text-center text-3xl">
                   Contact
                 </span>
               </Link>
-              <Link href="/">
+              <Link href="/faq">
                 <span className="cursor-pointer text-center text-3xl">FAQ</span>
               </Link>
             </div>
